@@ -16,6 +16,10 @@
     
 }
 
+.socialMedia p {
+    margin: 0;
+}
+
 .socialContainer, .contactContainer {
 
     margin-right: 10vh;
@@ -26,8 +30,9 @@
 .social, .contact {
     display:flex;
     flex-direction: column;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 2px;
 }
 
 .socialContainer ul {
@@ -51,7 +56,7 @@
 }
 
 #firstChild:first-child {
-    margin-top: 60px;
+    margin-top: 35px;
 }
 
 
