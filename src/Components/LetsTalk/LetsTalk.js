@@ -14,7 +14,7 @@ const LetsTalk = () => {
                     <input type="text" id='email' placeholder="your email address" />
                     <label htmlFor='message'>Message*</label>
                     <textarea id='message' placeholder="Enter your message" width="50%"></textarea>
-                    <button className="submitBtm">Submit</button>
+                    <button className="submitBtn">Submit</button>
                 </form>
             </div>
             <div className="contactImageHolder">

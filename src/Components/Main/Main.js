@@ -11,6 +11,7 @@ import WhatTheySay from '../WhatTheySay/WhatTheySay';
 import p1 from '../../public/P1.avif';
 import p2 from '../../public/P2.avif';
 import LetsTalk from '../LetsTalk/LetsTalk';
+import Footer from '../Footer/Footer';
 
 const Main = () => {
 
@@ -67,12 +68,13 @@ const Main = () => {
             <Images />
             <Activities />
             <HeroWords />
-            <h1 className="whathTheySayH1">What they say:</h1>
+            <h1 className="whatTheySayH1">What they say:</h1>
             <div className="commentComponents">
               <WhatTheySay image={persons[0].image} name={persons[0].name} comment={persons[0].comment} />
               <WhatTheySay image={ persons[1].image } name={ persons[1].name } comment={ persons[1].comment } />
             </div>
             <LetsTalk />
+            <Footer />
         </div>
 
     )
