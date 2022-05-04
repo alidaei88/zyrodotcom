@@ -1,0 +1,87 @@
+ .header {
+    background-color: #ffffff;
+    height:80px;
+    display: flex;
+     align-items: center;
+     justify-content: space-between;
+     border-bottom: 1px solid #c1c1c1;
+     font-family: 'Roboto', sans-serif;
+
+ }
+
+ .headScrolled {
+    background-color: #ffffff; 
+    position: fixed;
+     top: 0;
+     right: 0;
+     left: 0;
+ }
+
+ .leftSide {
+     display: flex;
+     align-items: baseline;
+     justify-content: flex-start;
+     width: 40%;
+     margin-left: 5vh;
+ }
+
+ .leftSide > a,p {
+    margin-right: 3vh;
+ }
+
+ .leftSide > p {
+     font-size: 16px;
+ }
+
+ .rightSide {
+     display: flex;
+     align-items: center;
+     width: 50%;
+     justify-content: flex-end;
+     margin-right: 5vh;
+ }
+
+ .rightSide > p {
+     margin-right: 3vh;
+ }
+
+ .desktop, .tablet, .mobile, .forward {
+     height: 24px;
+     font-size: x-large;
+     margin-right: 12px;
+     color: inherit;
+     cursor: pointer;
+     padding: 0;
+     color: rgba(0,0,0, 0.5)
+ }
+
+ .desktop{
+     color: rgba(232, 21, 27, 0.8);
+ }
+
+ .forward{
+     margin-right: 0px;
+ }
+
+ .pureP {
+     background-color: #583bb6;
+     font-size: 12px;
+     color: #ffffff;
+     padding: 10px 24px;
+     border-radius: 15px;
+     cursor: pointer;
+ }
+
+ .pureP:hover {
+    background-color: #372776;
+ }
+
+ .checkP {
+     display: flex;
+     align-items: center;
+ }
+
+ .checkPInner{
+     margin-left: 8px;
+     font-size: 15px;
+ }

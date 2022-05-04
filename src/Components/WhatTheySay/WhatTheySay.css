@@ -1,0 +1,35 @@
+.WhatTheySay {
+    background-color: #f2f5f7;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.comments{
+    display: flex;
+    margin-bottom: 5vh;
+}
+
+.personImage, .personComments{
+    width: 50%;
+    margin-left: 10vh;
+}
+
+.personImage {
+    height: 250px;
+    width:265px;
+    object-fit: cover;
+    border-radius: 2vh;
+
+}
+
+.name {
+    color:#7b88a8;
+    letter-spacing: 3px;
+    font-size: 18px;
+}
+
+.comment{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+

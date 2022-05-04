@@ -1,0 +1,27 @@
+.letsTalkSection{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.formSection{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8vh;
+    
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    /* width: 50%; */
+
+}
+
+.contactMeImg {
+    border-radius: 5vh;
+    height: 690px;
+    max-width: 100vh;
+    overflow: hidden;
+}

@@ -1,0 +1,42 @@
+.activities {
+    background-color: #f2f5f7;
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.expriences, .education, .courses{
+    padding-top: 10vh;
+    display:flex;
+    
+    
+}
+
+.titleHolder{
+    width: 50%;
+    margin-left: 22vh;
+}
+
+.content {
+    width: 50%;
+    margin-right: 20vh;
+}
+
+
+
+.titleHolder > h4 {
+    color:#7b88a8;
+    letter-spacing: 3px;
+    font-size: 18px;
+}
+
+.position{
+    color: #191d26;
+    font-size: 24px;
+}
+
+.dateAndPlace{
+    color: #191d26;
+    font-size: 18px;
+}

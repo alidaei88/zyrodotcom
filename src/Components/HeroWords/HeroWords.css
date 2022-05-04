@@ -1,0 +1,24 @@
+body{
+    background-color: #f2f5f7;
+}
+
+.heroWords {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #47467a;
+    padding: 5vh;
+    margin-top: 12vh;
+}
+
+.words {
+    color: #ffffff;
+    width: 60%;
+    margin-left:10vh;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.hero{
+    color: #ffffff;
+    font-size: 18px;
+    margin-left:10vh;
+}

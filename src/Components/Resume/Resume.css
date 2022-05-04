@@ -1,0 +1,60 @@
+.resume {
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    height: 545px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 12vh;
+
+}
+
+.bio, .skills{
+    width: 30%;
+}
+
+.bio{
+    margin: 10vh 20vh;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 13vh;
+}
+
+.skillsList {
+    display: flex;
+    flex-direction: column;
+    padding:0;
+    margin: 0;
+}
+
+.skillsLisItem {
+    margin-bottom: 8px;
+}
+
+.skillsLisItem > p {
+    display: inline;
+    font-size: 20px;
+    color: #191D26;
+    
+}
+
+.skills > h4 {
+    margin: 0 0 18px;
+    color:#7b88a8;
+    letter-spacing: 3px;
+}
+
+.bio > h4 {
+    font-size: 18px;
+    color: #7b88a8;
+    letter-spacing: 3px;
+}
+
+.bio > p {
+    
+    color: #191d26;
+    font-size: 20px;
+}
+
